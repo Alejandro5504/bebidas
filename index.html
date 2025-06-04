@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BEBIDAS</title>
+  <link rel="stylesheet" href="./css/css.css">
+</head>
+
+<body>
+
+
+  <div id="d1">
+
+    <h1 id="h1">Selecciona tu bebida</h1>
+    <h2 id="h2">En Bar Rita</h2>
+
+  </div>
+
+  <h2 id="h3">Donde lo que se da</h2>
+
+  <div id="d2">
+
+    <fieldset id="bebidas">
+
+    </fieldset>
+
+  </div>
+
+
+  <div id="d3">
+
+    <h2>NO SE QUITA</h2>
+
+
+  </div>
+
+
+  <p><button type="button" onclick="verificarBebida()">Ordenar bebida</button></p>
+  <p id="seleccionada"></p>
+
+  <script src="./js/bebidas.js"></script>
+  <script>
+    const SELECCION = document.getElementById('seleccionada');
+    const BEBIDAS = document.getElementById('bebidas');
+    let vueltas = productos.length;
+    for (let i = 0; i < vueltas; i++) {
+      opcion = document.createElement('input');
+      opcion.id = 'bebida' + i;
+      opcion.name = 'bebida';
+      opcion.type = 'radio';
+      opcion.value = productos[i];
+      BEBIDAS.appendChild(opcion);
+
+      etiqueta = document.createElement('label');
+      etiqueta.setAttribute("for", 'bebida' + i); // Los atributos se pueden indicar de esta forma 
+      etiqueta.innerHTML = productos[i];
+      BEBIDAS.appendChild(etiqueta);
+
+      salto = document.createElement('br');
+      BEBIDAS.appendChild(salto);
+    }
+
+
+
+
+
+  </script>
+
+</body>
+
+</html>

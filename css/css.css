@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+#d1 {
+
+  height: 500px;
+  background-image: url('../img/privada.jpg');
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth"100;
+
+}
+
+#h1 {
+
+  padding-left: 40.5%;
+  padding-top: 5%;
+  color: rgb(255, 255, 255);
+
+}
+
+#h2 {
+
+  padding-left: 47.5%;
+  padding-top: 10%;
+  color: rgb(255, 255, 255);
+
+}
+
+#h2:hover {
+
+  transform: scale(5);
+
+}
+
+
+
+#h3 {
+
+  background-color: rgb(0, 254, 237);
+  text-align: center;
+
+}
+
+#h3:hover {
+
+  transform: scale(5);
+
+}
+
+
+#d2 {
+
+  background-image: url('../img/1.png');
+  height: 575px;
+
+
+}
+
+
+#d3 {
+
+  background-color: rgb(255, 200, 0);
+  text-align: center;
+
+}
+
+
+
+fieldset {
+  height: 558px;
+  overflow-y: scroll;
+  width: 109px;
+  margin: 0 auto;
+}
+
+label {
+  font-size: 0.8em;
+}
+
+button {
+
+  box-shadow: inset 1px 1px 15px rgb(0, 254, 0);
+  border-radius: 8px;
+  display: block;
+  height: 40px;
+  width: 900px;
+ margin: 0 auto;
+
+
+}
